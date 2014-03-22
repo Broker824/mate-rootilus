@@ -6,4 +6,4 @@ elif [[ -x /usr/bin/caja || -x /usr/bin/caja ]]; then
 	sudotool=gksu caja
 fi
 
-$sudotool "caja --no-desktop $NAUTILUS_SCRIPT_CURRENT_URI"
+$sudotool "caja --no-desktop $CAJA_SCRIPT_CURRENT_URI"
