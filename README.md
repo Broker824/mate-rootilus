@@ -2,7 +2,9 @@ This is simple bash script for open caja window manager with root privileges.
 
 
 Scipt move to $HOME/.config/caja/scripts
+
 bash-4.2$ cp mate-rootilus $HOME/.config/caja/scripts
+
 and make script executable
 bash-4.2$ chmode +x mate-rootilus
 
