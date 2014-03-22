@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [[ -x /usr/bin/gksu || -x /usr/bin/gksu ]]; then
+	sudotool=gksu
+elif [[ -x /usr/bin/caja || -x /usr/bin/caja ]]; then
+	sudotool=gksu caja
+fi
+
+$sudotool "caja --no-desktop $NAUTILUS_SCRIPT_CURRENT_URI"
